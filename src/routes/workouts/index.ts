@@ -1,6 +1,6 @@
 import express from "express"
 import * as  db from "../../db/setup"
-import { getUser, transformContent, transformContentArray } from "../helpers"
+import { getUser, transformContentArray } from "../helpers"
 
 export const workoutRouter = express.Router()
 
